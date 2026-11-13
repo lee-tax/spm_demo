@@ -3,21 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "TaurusxAdsSDK",
+    name: "taxsds",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
             name: "TaurusxSPMTest",
-            targets: ["TaurusxAdsSDK"]
+            targets: ["taxsds"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "TaurusxAdsSDK",
-            url: "https://github.com/lee-tax/spm_demo/releases/download/0.1.0/TaurusxAdsSDK.zip",
-            checksum: "36c05b6dc6f7f658d1c0e2a059062ac14fb414c44aa80b930f342e0bdee8fdde"
+            name: "taxsds",
+            url: "https://github.com/lee-tax/spm_demo/releases/download/0.1.0/taxsds.zip",
+            checksum: "fd376af799872eddd529b5aba51d58d75895758aac18f3ace14163e6138ffb2a"
         )
     ]
 )
